@@ -1,0 +1,13 @@
+#! /bin/bash
+
+echo Running Pandoc...
+cat template.md letter.md > generatedletter.md
+
+pandoc \
+	--pdf-engine=xelatex \
+	--template=cltemplate.tex \
+	-s ./generatedletter.md \
+	-f markdown \
+	-t latex \
+	-o ./generatedletter.pdf
+echo Done

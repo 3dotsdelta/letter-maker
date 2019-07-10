@@ -1,0 +1,18 @@
+{
+  "name": "letter-maker",
+  "main": "./lib/letter-maker",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "letter-maker:create"
+  },
+  "repository": "https://github.com/atom/letter-maker",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.3"
+  }
+}

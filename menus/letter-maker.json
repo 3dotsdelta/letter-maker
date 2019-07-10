@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Create your letter",
+        "command": "letter-maker:create"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "letter-maker",
+          "submenu": [
+            {
+              "label": "Create",
+              "command": "letter-maker:create"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
