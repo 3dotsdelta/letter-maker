@@ -1,5 +1,5 @@
-# letter-maker package
+# Letter-Maker package
 
-A short description of your package.
+Still pretty hacky, this is the beginning of a small atom package to quickly and easily generate a signed PDF letter from markdown.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+It utilises Geoffrey Hannigan's awesome letter format from [here](https://github.com/Microbiology/PandocAcademicCoverLetter).
